@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub *)",
+      "Bash(flutter test *)",
+      "Bash(flutter analyze *)",
+      "Bash(flutter devices *)",
+      "Bash(flutter run *)",
+      "Bash(flutter emulators *)",
+      "Bash(flutter doctor *)",
+      "Bash(/Users/brunoaguirre/Library/Android/sdk/cmdline-tools/latest/bin/avdmanager list *)",
+      "Bash(/Users/brunoaguirre/Library/Android/sdk/cmdline-tools/latest/bin/sdkmanager --list)",
+      "Bash(/Users/brunoaguirre/Library/Android/sdk/cmdline-tools/latest/bin/sdkmanager --list_installed)",
+      "Bash(/Users/brunoaguirre/Library/Android/sdk/cmdline-tools/latest/bin/sdkmanager system-images;android-35;google_apis;arm64-v8a *)",
+      "Bash(/Users/brunoaguirre/Library/Android/sdk/cmdline-tools/latest/bin/avdmanager create *)",
+      "Bash(/Users/brunoaguirre/Library/Android/sdk/emulator/emulator -avd Pixel_7 -no-snapshot-load)",
+      "Bash(/Users/brunoaguirre/Library/Android/sdk/platform-tools/adb wait-for-device *)",
+      "Bash(/Users/brunoaguirre/Library/Android/sdk/platform-tools/adb shell *)",
+      "Bash(flutter --version)",
+      "Bash(xcrun simctl *)",
+      "Bash(open -a Simulator)",
+      "Bash(curl -sI -o /dev/null -w \"status=%{http_code} redirect=%{redirect_url} final=%{url_effective}\\\\n\" -L --max-time 15 \"http://www.munisanisidro.gob.pe/MSIONLINE/Login\")",
+      "Bash(curl -v --max-time 15 \"http://www.munisanisidro.gob.pe/MSIONLINE/Login\")",
+      "Bash(curl -sI --max-time 10 \"https://www.munisanisidro.gob.pe/MSIONLINE/Login\" -o /dev/null -w \"https_status=%{http_code}\\\\n\")",
+      "Bash(curl -sI --max-time 10 \"https://munisanisidro.gob.pe\" -o /dev/null -w \"root_status=%{http_code}\\\\n\")",
+      "Bash(ping -c 4 www.munisanisidro.gob.pe)",
+      "Bash(dig +short www.munisanisidro.gob.pe A)",
+      "Bash(nslookup www.munisanisidro.gob.pe)",
+      "Bash(adb -s emulator-5554 emu kill)",
+      "Bash(flutter clean *)",
+      "Bash(flutter build *)",
+      "Bash(adb -s emulator-5554 shell getprop sys.boot_completed)",
+      "Bash(awk '/^[[:space:]]+[0-9A-F]+ \\\\/\\\\*.*\\\\*\\\\/.*=.*\\\\{/{target=$0} /PRODUCT_NAME/{print NR\": \"target\": \"$0}' /Users/brunoaguirre/Developer/tutati_webview/ios/Runner.xcodeproj/project.pbxproj)",
+      "Bash(mkdir -p /Users/brunoaguirre/Developer/mando_sof_webview/assets/icon)",
+      "Bash(cp /Users/brunoaguirre/Developer/mando_sof_webview/logo_mando_sof.png /Users/brunoaguirre/Developer/mando_sof_webview/assets/icon/logo_mando_sof.png)",
+      "Bash(dart run *)"
+    ]
+  }
+}
