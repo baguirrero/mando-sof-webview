@@ -51,22 +51,22 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/icon/logo_mando_sof.png"
+  image_path: "assets/icon/logo_muni_msi.jpg"
   remove_alpha_ios: true
   background_color_ios: "#ffffff"
   adaptive_icon_background: "#ffffff"
-  adaptive_icon_foreground: "assets/icon/logo_mando_sof.png"
+  adaptive_icon_foreground: "assets/icon/logo_muni_msi.jpg"
   web:
     generate: true
-    image_path: "assets/icon/logo_mando_sof.png"
+    image_path: "assets/icon/logo_muni_msi.jpg"
     background_color: "#ffffff"
     theme_color: "#ffffff"
   windows:
     generate: true
-    image_path: "assets/icon/logo_mando_sof.png"
+    image_path: "assets/icon/logo_muni_msi.jpg"
   macos:
     generate: true
-    image_path: "assets/icon/logo_mando_sof.png"
+    image_path: "assets/icon/logo_muni_msi.jpg"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -80,7 +80,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/icon/logo_mando_sof.png
+    - assets/icon/logo_muni_msi.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:

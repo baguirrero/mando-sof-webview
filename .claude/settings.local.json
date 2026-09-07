@@ -32,7 +32,7 @@
       "Bash(adb -s emulator-5554 shell getprop sys.boot_completed)",
       "Bash(awk '/^[[:space:]]+[0-9A-F]+ \\\\/\\\\*.*\\\\*\\\\/.*=.*\\\\{/{target=$0} /PRODUCT_NAME/{print NR\": \"target\": \"$0}' /Users/brunoaguirre/Developer/tutati_webview/ios/Runner.xcodeproj/project.pbxproj)",
       "Bash(mkdir -p /Users/brunoaguirre/Developer/mando_sof_webview/assets/icon)",
-      "Bash(cp /Users/brunoaguirre/Developer/mando_sof_webview/logo_mando_sof.png /Users/brunoaguirre/Developer/mando_sof_webview/assets/icon/logo_mando_sof.png)",
+      "Bash(cp /Users/brunoaguirre/Developer/mando_sof_webview/logo_muni_msi.jpg /Users/brunoaguirre/Developer/mando_sof_webview/assets/icon/logo_muni_msi.jpg)",
       "Bash(dart run *)"
     ]
   }
